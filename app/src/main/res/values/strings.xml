@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EventHistory</string>
+    <!-- Replace with your actual Web Client ID from google-services.json if it differs -->
+    <string name="default_web_client_id">853538085852-g638dg9ce8ms0a9gq86coaoe3lpnkuvo.apps.googleusercontent.com</string>
+</resources>
