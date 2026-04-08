@@ -75,6 +75,11 @@ class MainActivity : AppCompatActivity() {
             finish()
         }
 
+        val navCheckButton = findViewById<Button>(R.id.navCheckButton)
+        navCheckButton.setOnClickListener {
+            startActivity(Intent(this, NavMainActivity::class.java))
+        }
+
         addButton.setOnClickListener {
             val username = currentUsername ?: return@setOnClickListener
 
