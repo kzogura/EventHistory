@@ -26,6 +26,18 @@
         <activity
             android:name=".MainActivity"
             android:exported="false" />
+
+        <activity
+            android:name=".NavMainActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".LoopActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".DfsBfsActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
